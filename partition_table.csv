@@ -1,0 +1,5 @@
+# name, type, subtype, offset, size, flags
+nvs, data, nvs, 0x9000, 0x7000
+factory, app, factory, 0x10000, 0x400000
+spiffs, data, spiffs, 0x500000, 10M
+coredump, data, coredump,       , 64K
